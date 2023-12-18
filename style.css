@@ -1,0 +1,39 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    background-color: #bfc0c0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    width: 20vw;
+    background-color: #2D3142;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input, label {
+    display: block;
+}
+input, button {
+    height: 3vh;
+    width: 15vw;
+    border-radius: 0.25rem;
+    border-color: #2D3142;
+}
+label {
+    color: #ffffff;
+}
+small {
+    display: none;
+}
